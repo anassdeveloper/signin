@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    padding: 2rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right bottom ,#03045e,#caf0f8);
+}
+.form{
+    position: relative;
+    background-color: #fff;
+    padding: 1rem;
+    width: 28rem;
+    margin-top: 4rem;
+    border-radius: 4px;
+}
+.title{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -4rem;
+}
+.title p{
+    position: relative;
+    font-size: 1.3rem;
+    bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #90e0ef;
+}
+.form h2{
+    margin-top: 8rem;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    text-align: center;
+    color: #03045e;
+    
+
+}
+
+.form form {
+    padding: 2rem 3rem;
+}
+.form form label{
+    font-size: 1.1rem;
+    color: rgb(150, 150, 150);
+    margin-left: 1rem;
+}
+.form form .inpt{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: .5rem 0;
+}
+.inpt input{
+    width: 100%;
+    padding: 5px 40px;
+    font-size: 1.3rem;
+    border-radius: 100px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+.inpt i{
+    position: absolute;
+    left: .8rem;
+    font-size: 1.3rem;
+    color: #ccc;
+}
+.inpt input::placeholder{
+    color: #ccc;
+}
+
+.form form button{
+    display: block;
+    margin: 1rem auto;
+    font-size: 1.2rem;
+    padding: 10px 40px;
+    text-transform: uppercase;
+    background-color: rgb(4, 194, 4);
+    border: none;
+    outline: none;
+    color: #fff;
+    border-radius: 50px;
+}
+
+.form form p{
+    text-align: center;
+}
+.btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+    margin: 0 1rem;
+}
+.btns button{
+    color: #fff;
+    border: none;
+    outline: none;
+    font-size: 1.1rem;
+    border-radius: 20px;
+    padding: 10px 30px;
+    margin: 0 1rem;
+}
+.btns button:first-child{
+    
+    background-color: blue;
+    
+}
+.btns button:last-child{
+    background-color: aqua;
+
+}
+.btns button i{
+    margin-right: .4rem;
+}
+
+@media  screen and (max-width:600px) {
+    .form{
+        width: 20rem;
+        margin: 0;
+        padding: 0;
+    }
+    .form h2{
+        font-size: 1.7rem;
+    }
+    .form form{
+        padding: 1rem;
+    }
+    .form form label{
+        font-size: .9rem;
+    }
+    .form .inpt input{
+        font-size: .9rem;
+        padding: 10px 30px;
+    }
+    .form .inpt i{
+        font-size: .8rem;
+    }
+    .btns button{
+        display: flex;
+        font-size: .8rem;
+        margin: 0 .4rem;
+    }
+
+}

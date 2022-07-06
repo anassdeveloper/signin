@@ -1,0 +1,4 @@
+<i class="fa-solid fa-envelope"></i>
+<i class="fa-solid fa-lock"></i>
+<i class="fa-brands fa-facebook-f"></i>
+<i class="fa-brands fa-twitter"></i>
